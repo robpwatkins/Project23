@@ -1,5 +1,5 @@
 :root {
-  --onWhite: 
+  --onWhite: #69717B;
 }
 
 html, body {
@@ -25,19 +25,19 @@ html, body {
   background-color: #25293496;
 }
 
-.mainBox {
-  width: 100%;
-  height: 100%;
+.whiteSpace {
+  background: rgba(255, 255, 255, 0.438);
 }
 
 .tabs {
   height: 25px;
-  width: 450px;
+  width: 650px;
   margin: 0 auto;
   font-size: 15px;
   font-family: 'Archivo', sans-serif;
   line-height: 20px;
-  color: #69717B;
+  /* background: white; */
+  /* color: #69717B; */
   text-align: center;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
@@ -56,53 +56,61 @@ a {
   width: 25%;
   padding-top: 2px;
   font-size: 14px;
-  color: white;
+  background: white;
+  color: #69717B;
+  /* color: white; */
   /* border-right: 1px solid #69717B; */
   border: 1px solid white;
   border-top: none;
-  border-right: none;
+  border-bottom: none;
+  border-right: 1px solid;
   /* border-bottom-right-radius: 5px; */
   /* border-bottom-left-radius: 5px; */
-  background:rgba(105, 113, 123, 0);
+  /* background:rgba(105, 113, 123, 0); */
   /* transition: transform .1s; */
 }
 
 a:hover {
-  color: #69717B;
-  background: white;
+  color: white;
+  background: rgba(255, 255, 255, 0);
+  border-bottom: 1px solid white;
 }
 
 .contact {
   border-right: 1px solid white;
 }
 
+.mainBox {
+  width: 100%;
+  height: 100%;
+  padding-top: 75px;
+}
 
 .titleBox {
-  width: 450px;
-  height: 305px;
+  width: 650px;
+  height: 435px;
   margin: 0 auto;
-  color: white;
-  font-size: 78px;
+  color: rgb(105, 113, 123);
+  font-size: 120px;
   text-align: center;
   /* border-top: 1px solid white; */
-  border-bottom: 1px solid white;
+  /* border-bottom: 1px solid #69717B; */
   transition: width 1s;
 }
 
 .first {
-  height: 10px;
-  margin-top: 2px;
-  font-size: 175px;
-  height: 155px;
+  height: 225px;
+  /* margin-top: 2px; */
+  font-size: 275px;
 }
 
 .webby {
-  border-bottom: 1px solid  white;
+  border-bottom: 1px solid  #69717B;
   margin-top: 10px;
 }
 
 .webDev {
-  font-size: 35px;
+  font-size: 55px;
   padding: 10px 0px;
 }
 
